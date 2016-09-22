@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>  // git으로의 첫걸음
 
 #define BYTE_TO_BINARY_PATTERN "%c%c%c%c%c%c%c%c"
 #define BYTE_TO_BINARY_PATTERN_2 "%c%c%c%c%c%c%c%c %c%c%c%c%c%c%c%c"
