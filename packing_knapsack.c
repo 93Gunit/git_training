@@ -35,4 +35,5 @@ int get_cond_maximum(int price_per_wgt_list[], int exclu_index,
 
 int main(int argc, const char **argv)
 {
+	int a;
 }
