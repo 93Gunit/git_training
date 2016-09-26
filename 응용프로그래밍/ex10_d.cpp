@@ -13,21 +13,19 @@ int main(void)
 
 	for (i = 1; i <= n; i++)
 	{
-		for (j = n - 1; j > 0; j--)
+		for (j = n-i; j > 0; j--)
 		{
 			printf(" ");
 		}
 		j = 0;
-		for (k = 1; k <=i; k++)
+		for (k = -i; k <0; k++)
 		{
-			printf("%c", 123 - k);
+			printf("%c", 123 + k);
 			
 		}
 		k = 0;
 		printf("\n");
 	}
-
-	printf("helow world!\n");
 
 	return 0;
 }
